@@ -6,7 +6,7 @@ Version:	1.12
 Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-URL:		http://www.xemacs.org
+URL:		http://www.xemacs.org/
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	8ee6ca98afc9c18a1df013065c430f5e
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
