@@ -1,18 +1,18 @@
-Summary: 	DEC EDIT/TPU support
+Summary:	DEC EDIT/TPU support
 Summary(pl):	DEC EDIT/TPU support
-Name:    	xemacs-tpu-pkg
+Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
-Version: 	1.10
+Version:	1.10
 Release:	1
 License:	GPL
-Group:    	Applications/Editors/Emacs
+Group:		Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
-URL:      	http://www.xemacs.org
-Source:   	ftp://ftp.xemacs.org/packages/%{srcname}-%{version}-pkg.tar.gz
+URL:		http://www.xemacs.org
+Source0:	ftp://ftp.xemacs.org/packages/%{srcname}-%{version}-pkg.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
-Requires: 	xemacs
+Requires:	xemacs
 
 %description
 
