@@ -16,7 +16,7 @@ Requires:	xemacs
 %description
 DEC EDIT/TPU support.
 
-%description -l pl 
+%description -l pl
 Obs³uga DEC EDIT/TPU.
 
 %prep
@@ -27,14 +27,14 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/tpu/ChangeLog 
+gzip -9nf lisp/tpu/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/xemacs-packages/etc/*
+%{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
-%doc lisp/tpu/ChangeLog.gz 
+%doc lisp/tpu/ChangeLog.gz
