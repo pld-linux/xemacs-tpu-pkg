@@ -1,11 +1,12 @@
 Summary:	DEC EDIT/TPU support
-Summary(pl):	DEC EDIT/TPU support
+Summary(pl):	Obs³uga DEC EDIT/TPU
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
 Version:	1.12
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:		http://www.xemacs.org
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
@@ -15,8 +16,10 @@ Conflicts:	xemacs-sumo
 Requires:	xemacs
 
 %description
+DEC EDIT/TPU support.
 
 %description -l pl 
+Obs³uga DEC EDIT/TPU.
 
 %prep
 %setup -q -c
