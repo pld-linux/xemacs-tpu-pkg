@@ -2,7 +2,7 @@ Summary:	DEC EDIT/TPU support
 Summary(pl):	DEC EDIT/TPU support
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
-Version:	1.11
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
