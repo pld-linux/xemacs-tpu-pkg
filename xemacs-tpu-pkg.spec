@@ -29,6 +29,9 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 gzip -9nf lisp/tpu/ChangeLog
 
+# remove .el file if corresponding .elc file exists
+find $RPM_BUILD_ROOT -type f -name "*.el" | while read i; do test ! -f ${i}c || rm -f $i; done
+
 %clean
 rm -fr $RPM_BUILD_ROOT
 
@@ -36,5 +39,5 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
-%{_datadir}/xemacs-packages/lisp/*/*.elc
+%{_datadir}/xemacs-packages/lisp/*/*.el*
 %doc lisp/tpu/ChangeLog.gz
