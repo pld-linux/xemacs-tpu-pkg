@@ -3,7 +3,7 @@ Summary(pl):	Obs³uga DEC EDIT/TPU
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
 Version:	1.14
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 URL:		http://www.xemacs.org/
