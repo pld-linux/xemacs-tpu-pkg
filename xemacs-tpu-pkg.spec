@@ -1,5 +1,5 @@
 Summary:	DEC EDIT/TPU support
-Summary(pl.UTF-8):   Obsługa DEC EDIT/TPU
+Summary(pl.UTF-8):	Obsługa DEC EDIT/TPU
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
 Version:	1.14
