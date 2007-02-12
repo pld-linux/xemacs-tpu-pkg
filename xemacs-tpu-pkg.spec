@@ -1,5 +1,5 @@
 Summary:	DEC EDIT/TPU support
-Summary(pl):	Obs≥uga DEC EDIT/TPU
+Summary(pl.UTF-8):   Obs≈Çuga DEC EDIT/TPU
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
 Version:	1.14
@@ -17,8 +17,8 @@ Requires:	xemacs
 %description
 DEC EDIT/TPU support.
 
-%description -l pl
-Obs≥uga DEC EDIT/TPU.
+%description -l pl.UTF-8
+Obs≈Çuga DEC EDIT/TPU.
 
 %prep
 %setup -q -c
