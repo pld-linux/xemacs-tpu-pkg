@@ -3,11 +3,11 @@ Summary(pl.UTF-8):	Obsługa DEC EDIT/TPU
 Name:		xemacs-tpu-pkg
 %define 	srcname	tpu
 Version:	1.14
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
-URL:		http://www.xemacs.org/
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+URL:		https://www.xemacs.org/
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	f3f5ef913e958e5532a2a682288eac05
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
